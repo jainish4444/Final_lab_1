@@ -1,3 +1,4 @@
+import task1.py
 def getListOfFiles(dirName): 
     listOfFile = os.listdir(dirName)
     allFiles = list()
@@ -12,3 +13,4 @@ def getListOfFiles(dirName):
 listOfFiles = list()
 for (dirpath, dirnames, filenames) in os.walk(dirName):
     listOfFiles += [os.path.join(dirpath, file) for file in filenames]
+
