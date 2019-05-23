@@ -60,6 +60,7 @@ Write the solution in task2.py
 
 # Task 3 - Book Play?
 
+Write the solution in task3.py
 The books are Book1.txt, Book2.txt, Book3.txt and they are found in your repo.
 You also have a file called 20k.txt that contains a list of common english words. Using this you can find the characters and nouns in the books. 
 
@@ -74,15 +75,16 @@ You also have a file called 20k.txt that contains a list of common english words
 
 
 # Task 4 - APIC-EM API
+
 You are given a code to talk to the APIC-EM sandbox controller in the files, create-ticket.py and get-network-hosts.py through RESI. 
 The API-DOCS can be found at https://developer.cisco.com/site/apic-em/docs/api.gsp
 
 ### Objectives
-[Create a newfile called task03.py and import create-ticket.py to achive this]
+[Create a newfile called task4.py and import create-ticket.py to achive this]
 
-1. Modify get-network-host.py to display return a dict that contains the hosts with their Names and IP Addresses tuple as keys and MAC Addresses as values. [This should be done on the same file]
+1. Modify get-network-host.py to get-interface and display / return a dict that contains the interfaces with their deviceId and macAddress tuple as keys and portName as values. [This should be done on the same file and you have to change the api call]
 
-2. Write a new function called getnetworkdevicecount that gets the count of network devices. (The API can be found under Inventory -> network-device -> count)
+2. Write a new function called gethostcount that gets the count of hosts. (The API can be found under Inventory -> network-device -> count)
 
 
 Use the controller at: https://sandboxapic.cisco.com/
